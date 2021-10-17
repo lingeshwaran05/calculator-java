@@ -72,17 +72,17 @@ class Calculator extends JFrame
 			String displayText=textfield.getText();
 			if(e.getActionCommand().equals("sin"))
 			{
-				textfield.setText(""+Math.sin(Double.valueOf (displayText). 						doubleValue()));
+				textfield.setText(""+Math.sin(Double.valueOf (displayText).doubleValue()));
 			}
 			else
 			if(e.getActionCommand().equals("cos"))
 			{
-				textfield.setText(""+Math.cos(Double.valueOf(displayText). 						doubleValue()));
+				textfield.setText(""+Math.cos(Double.valueOf(displayText).doubleValue()));
 			}
 			else
 			if(e.getActionCommand().equals("log"))
 			{
-				textfield.setText(""+Math.log(Double.valueOf(displayText). 						doubleValue()));
+				textfield.setText(""+Math.log(Double.valueOf(displayText).doubleValue()));
 			}
 			else if(e.getActionCommand().equals("C"))
 			{
